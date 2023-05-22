@@ -1,0 +1,17 @@
+.popup-window {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($color: #000000, $alpha: 0.25);
+  z-index: 100;
+  transition: 0.13s;
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

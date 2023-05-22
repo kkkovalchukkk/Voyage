@@ -1,0 +1,41 @@
+.subheading-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+
+.subheading {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.075em;
+  color: #555b6e;
+}
+
+.btn {
+  padding: 14px 17px;
+  border: 2px solid rgba(85, 91, 110, 0.21);
+  border-radius: 3px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 10px;
+  text-align: right;
+  letter-spacing: 1;
+  text-transform: lowercase;
+  color: #555b6e;
+  cursor: pointer;
+  background-color: #fff;
+  font-family: "Comfortaa";
+  transition: 0.13s;
+
+  &:hover {
+    border-color: rgba(85, 91, 110, 0.5);
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}
